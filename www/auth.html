@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, viewport-fit=cover">
+    <title>Авторизация</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/stylemobil.css" rel="stylesheet">
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="cordova.js"></script>
+
+
+</head>
+
+<body class="">
+    <!-- <div class="girl"></div> -->
+
+
+    <section class="sectionstyle">
+        <div class="container firstheaderstyle">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a href="befor_auth.html" class="hrefbackstyle"><img src="img/back.svg" alt="" class="back" /></a>
+
+                    <!-- <div class="dobavleniye_uslugi">Авторизация</div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="container align-middle">
+        <div class="row vertical-align">
+            <div class="col-xs-1 col-sm-2 col-md-3 col-lg-4"></div>
+            <div class="col-xs-10 col-sm-8 col-md-6 col-lg-4">
+
+
+                <section>
+
+                    <div class="form-group row">
+                        <div class="col-sm-10" style="text-align:center;width:100%;margin-top:80px;">
+                            <img src="img/domimi2.svg" alt="" />
+                            <!-- <div class="logoname">Dom iMi</div> -->
+                            <!-- <div class="sozdaniepozv">Они позволят вам создавать</div>
+                            <div class="subtext">Позволит быть ближе на один шак к<br /> своим соседям, и общим
+                                интересам<br /> вашего Жк или подъезда</div> -->
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 85px;"></div>
+
+                    <div class="form-group row">
+                        <div class="col-sm-10" style="text-align:center;width:100%;">
+                            <input type="text" class="form-control login subinput reg_style" name="login"
+                                placeholder="Login" autocomplete="on" value="">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+
+                        <div class="col-sm-10" style="text-align:center;width:100%;">
+                            <input type="password" class="form-control pass subinput reg_style" name="pass"
+                                placeholder="Password" autocomplete="on" value="">
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 85px;"></div>
+
+                    <div class="quick">
+                        <div class="auth_user ahrefyel">
+                            Войти
+                        </div>
+                    </div>
+
+
+                    <div class="voiti_cherez">
+                        Войти через
+                    </div>
+                    <div class="social_block">
+                        <div class="soc_position" onclick="Sauth.dialog('facebook');"><img src="img/fb_auth.svg"
+                                alt="" /></div>
+                        <div class="soc_position" onclick="Sauth.dialog('vkontakte');"><img src="img/vk_auth.svg"
+                                alt="" /></div>
+                        <div class="soc_position" onclick="Sauth.dialog('google');"><img src="img/google_auth.svg"
+                                alt="" /></div>
+                        <div class="soc_position" onclick="Sauth.dialog('yandex');"><img src="img/yandex_auth.svg"
+                                alt="" /></div>
+                    </div>
+
+                    <div class="quick3">
+                        <div class="text_center">
+                            <a href="loginpas.html" class="conf_text">Еще не зарегистрировались?</a>
+                        </div>
+
+
+                    </div>
+
+                </section>
+
+
+            </div>
+            <div class="col-xs-1 col-sm-2 col-md-3 col-lg-4"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="js/jkjkmobile.js"></script>
+    <script>auth();</script>
+</body>
+
+</html>
